@@ -46,9 +46,7 @@ const Form = () => {
         <h1>Pet Shelter</h1>
         <Link to={"/"}>Home</Link>
       </div>
-
       <h4>Know a pet needing a home?</h4>
-
       <form
         onSubmit={submitHandler}
         className="d-flex w-50 border border-secondary rounded"
